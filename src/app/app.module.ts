@@ -14,6 +14,7 @@ import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { GLocationComponent } from './g-location/g-location.component';
 import { GmapComponent } from './gmap/gmap.component';
+import { AsideComponent } from './aside/aside.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { GmapComponent } from './gmap/gmap.component';
     ContactComponent,
     ServicesComponent,
     GLocationComponent,
-    GmapComponent
+    GmapComponent,
+    AsideComponent
   ],
   imports: [
     BrowserModule,

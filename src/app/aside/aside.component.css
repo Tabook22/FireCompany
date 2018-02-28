@@ -1,0 +1,17 @@
+.clients-container h3{
+  text-align:center;
+
+}
+
+.clients-img, .clients-wrapper{
+  padding:0 40px;
+}
+
+.clients-contents{
+  padding:1.2rem;
+background-color:#fff;
+display:grid;
+grid-template-columns:5rem 1fr;
+grid-template-rows:auto;
+grid-gap:10px;
+}

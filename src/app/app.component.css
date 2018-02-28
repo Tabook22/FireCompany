@@ -1,0 +1,38 @@
+.wrapper{
+
+
+}
+.wrapper{
+  width:1440px;
+  background-color:#c1c1c1;
+}
+.main-container{
+  margin-left:auto;
+  margin-right:auto;
+  width:940px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:auto;
+  grid-column-gap:2px;
+  grid-template-areas:
+  "aside-area main-area"
+
+}
+
+.main-container{
+  margin-top:80px;
+  border-radius: 80px;
+
+}
+
+aside{
+  grid-area: aside-area;
+  background-color:#cdcbba;
+}
+
+main{
+
+  grid-area:main-area;
+  background-color:#fff;
+
+}
