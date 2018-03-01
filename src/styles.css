@@ -2,7 +2,21 @@ html {
     position: relative;
     min-height: 100%;
   }
+
+html {
+  background: url(assets/images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*make IE do cover backgrounds*/
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+}
+
   body {
+    margin:0 0;
+    padding:0 0;
+    background-color:rgba(222,222,222,0.5);
     /* Margin bottom by footer height */
-    margin-bottom: 60px;
   }

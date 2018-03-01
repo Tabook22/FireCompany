@@ -1,10 +1,10 @@
 .wrapper{
-
+padding:4rem 0;
 
 }
 .wrapper{
-  width:1440px;
-  background-color:#c1c1c1;
+  /* width:1440px;
+  background-color:#c1c1c1; */
 }
 .main-container{
   margin-left:auto;
@@ -18,21 +18,24 @@
   "aside-area main-area"
 
 }
-
 .main-container{
-  margin-top:80px;
-  border-radius: 80px;
-
+      border: 2px solid #fff;
+      border-radius: 25px;
+background-color:#fff;
 }
 
+
 aside{
+  /* border: 1px solid #cdcbba; */
+  border-radius: 25px;
+
   grid-area: aside-area;
-  background-color:#cdcbba;
+  /* background-color:#cdcbba; */
 }
 
 main{
 
   grid-area:main-area;
-  background-color:#fff;
+
 
 }

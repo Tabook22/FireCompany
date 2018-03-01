@@ -1,0 +1,17 @@
+.logo-title{
+ height:80%; width:100;
+
+    border: 1px solid #fff;
+    border-radius: 25px;
+
+}
+.nav-items ul{
+  margin:0;
+  padding:0;
+}
+
+.nav-items li{
+  display:inline-block;
+  padding:0 10px;
+  border-right:1px solid #222;
+}
