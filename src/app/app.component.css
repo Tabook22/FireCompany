@@ -16,6 +16,7 @@ padding:4rem 0;
   grid-column-gap:2px;
   grid-template-areas:
   "aside-area main-area"
+  "gloc-area gloc-area"
 
 }
 .main-container{
@@ -38,4 +39,8 @@ main{
   grid-area:main-area;
 
 
+}
+
+.gloc{
+  grid-area:gloc-area;
 }

@@ -1,0 +1,16 @@
+#carousel-wrapper {
+padding: 0 40px !important;
+}
+carousel slide{
+  padding:3px;
+  border:1px solid #ccc;
+}
+a{
+background-color:green;
+}
+.carousel-control.left{
+  background-image: none !important;
+
+}
+
+

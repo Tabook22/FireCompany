@@ -2,6 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
+// RECOMMENDED (doesn't work with system.js)
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { HeaderComponent } from './header/header.component';
@@ -15,6 +18,7 @@ import { ServicesComponent } from './services/services.component';
 import { GLocationComponent } from './g-location/g-location.component';
 import { GmapComponent } from './gmap/gmap.component';
 import { AsideComponent } from './aside/aside.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 @NgModule({
@@ -34,10 +38,13 @@ import { AsideComponent } from './aside/aside.component';
     ServicesComponent,
     GLocationComponent,
     GmapComponent,
-    AsideComponent
+    AsideComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
+    CarouselModule.forRoot(),
+    // Specify your library as an import
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
       {path: 'home', component: HomeComponent},

@@ -1,4 +1,26 @@
+.sinfo-wrapper{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows:auto;
+  grid-gap:10px;
+  padding:10px;
+   margin-top:20px;
+  border-top:1px solid #222;
+  background-color:#F6F6F6;
+}
 
+.gmap-wrapper{
+
+  grid-column:1/4;
+}
+
+.gmap-contents{
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-template-rows:atuo;
+grid-gap:10px;
+padding:10px;
+}
 /*======= Contact ======*/
 
 .form-control {
@@ -64,11 +86,11 @@
 .btn-primary:focus,
 .btn-primary:hover,
 .open > .dropdown-toggle.btn-primary,
-.btn-primary.active.focus, .btn-primary.active:focus, 
-.btn-primary.active:hover, .btn-primary:active.focus, 
-.btn-primary:active:focus, .btn-primary:active:hover, 
-.open>.dropdown-toggle.btn-primary.focus, 
-.open>.dropdown-toggle.btn-primary:focus, 
+.btn-primary.active.focus, .btn-primary.active:focus,
+.btn-primary.active:hover, .btn-primary:active.focus,
+.btn-primary:active:focus, .btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
 .open>.dropdown-toggle.btn-primary:hover {
   background-color: #d85600 !important;
   border: 1px solid #d85600 !important;
@@ -125,7 +147,7 @@
 }
 }
 @media only screen and (min-width: 767px) and (max-width: 991px){
-  
+
 }
 @media (max-width: 767px) {
   .blog-wrapper .blog-item {
