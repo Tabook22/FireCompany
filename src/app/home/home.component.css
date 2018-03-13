@@ -22,7 +22,27 @@ header {
 .left-cont{
   margin:20px 0;
 }
+.lart {
+  background-image: url("../../assets/images/bgfire.png");
+  background-repeat: no-repeat;
+  padding: 5px;
 
+}
+
+.left-cont h3{
+  font-size:1.5 rem;
+  font-weight:bold;
+}
+
+.left-cont p{
+  font-size:1rem;
+}
+
+.left-cont span{
+  color:orange;
+  font-weight:bold;
+  padding-left:1rem;
+}
 .right-cont {
   margin: 20px 0;
   padding: 10px;
@@ -31,7 +51,7 @@ header {
 
 .left-cont{
   width:201px;
-  height:244px;
+
   color:#fff;
   overflow:hidden;
 }

@@ -1,7 +1,3 @@
-<!-- Start of Header Contents -->
-<header>
-  <app-header></app-header>
-</header>
 <!-- Start of Main Contents -->
 <div class="main-contents">
   <!-- Main Image -->
@@ -10,18 +6,38 @@
   </div>
   <!-- left contents -->
   <div class="left-cont">
-      <img src="../../assets/images/bgfire.png" style="height:100%;width:100%">
+    <div class="lart">
+      <h3>Bring to Us your Needs</h3>
+       <p> In short bring to us your needs we will find you a solution through enjoying our operation performance
+      objectives strategy which is focussing on the five main objectives :-<br/>
+       <span>Quality</span> <br/>
+       <span>Dependability</span> <br/>
+       <span>Flexibility</span><br/>
+       <span>Speed Cost</span>
+
+    </p>
+
+    </div>
+     <div class="limg">
+<img src="../../assets/images/ourClients.png" alt="" style="height:100%; width:100%;">
+</div>
   </div>
   <!-- right contents -->
   <div class="right-cont">
     <h3>Our Services</h3>
     <hr>
     <p class="art-details">
-       Our Services Our services and products are regularly updated according to the latest standards, developments and client
+       Our services and products are regularly updated according to the latest standards, developments and client
       Requirement
     </p>
     <p class="art-more">
-      <a href="#"> more >> </a>
+      <a [routerLink]="'about'"> more >> </a>
+    </p>
+
+    <h3>Our Clients</h3>
+    <p>
+       Our Clients include Construction Companies, Engineering Consultants, Oil & Gas fields, Upstream /Downstream Industries,
+      Sea Ports , Air Ports Facilities, Ministries and Government Organisations etc
     </p>
   </div>
 

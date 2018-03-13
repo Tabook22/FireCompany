@@ -5,8 +5,10 @@ carousel slide{
   padding:3px;
   border:1px solid #ccc;
 }
-a{
-background-color:green;
+
+carousel slide img{
+  width:344px;
+  height:685px;
 }
 .carousel-control.left{
   background-image: none !important;

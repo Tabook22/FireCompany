@@ -9,6 +9,22 @@
   background-color:#F6F6F6;
 }
 
+.sinfo-wrapper,
+.address-info p,
+.support-info {
+
+  font-size:1rem;
+}
+
+.sinfo-wrapper h4,
+.address-info h4,
+.support-info h4 {
+  font-size: 1.2rem;
+  font-weight:bold;
+  color:orange;
+}
+
+
 .gmap-wrapper{
 
   grid-column:1/4;
@@ -16,7 +32,7 @@
 
 .gmap-contents{
 display:grid;
-grid-template-columns:1fr 1fr;
+grid-template-columns:1fr ;
 grid-template-rows:atuo;
 grid-gap:10px;
 padding:10px;
